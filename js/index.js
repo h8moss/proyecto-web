@@ -1,16 +1,16 @@
 const createRecipeObject = (recipe) => {
   const parent = $("<div class=\"row\">")
-  const div = $("<div class=\"cell\">")
+  const div = $("<div class=\"cell-md-4 text-center drop-shadow\">")
 
   const title = $("<a>", { href: "/recipe?id=0" });
   title.text(recipe.title);
 
-  const imgContainer = $("<div class=\"img-container rounded drop-shadow selected\">");
-  const img = $("<img>", { src: recipe.image, width: "300" })
+  const imgContainer = $("<div class=\"img-container rounded\">");
+  const img = $('<img>', { src: recipe.image })
   imgContainer.append(img);
 
-  div.append(title)
   div.append(imgContainer);
+  div.append(title)
 
   parent.append(div);
 
