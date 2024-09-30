@@ -28,3 +28,8 @@ const getElement = (q) => document.querySelector(q);
  */
 const getElements = (q) => document.querySelectorAll(q);
 
+export {
+  createElement,
+  getElement,
+  getElements
+}

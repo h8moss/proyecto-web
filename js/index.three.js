@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { getElements } from './modules/util.mjs'
 
 const elementsFor3d = getElements('div[data-model]');
 

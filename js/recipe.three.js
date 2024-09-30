@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { getElement } from './modules/util.mjs'
 
 const gameParent = getElement('#game-screen');
 
