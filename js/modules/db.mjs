@@ -9,7 +9,7 @@ const recipes = [
       new Ingredient('Sal', 3 / 4, 'tsp', true, ''),
       new Ingredient('Mantequilla', 226, 'g', true, ''),
       new Ingredient('Azucar', 200, 'g', true, ''),
-      new Ingredient('Huevos', 2, '', false, ''),
+      new Ingredient('Huevos', 2, '', false, 'res/3d/kenny/egg.glb'),
       new Ingredient('Extracto de vainilla', 2, 'tsp', true, ''),
     ], [
     "Combinar los ingredientes solidos",
@@ -25,8 +25,8 @@ const recipes = [
     "Hornear las galletas a 200°C hasta que tengan un color dorado"
   ], 4.78, 294, "res/galletas.jpg", null),
   new Recipe("Pan frances", [
-    new Ingredient('Pan', 5, 'rebanadas', false, ''),
-    new Ingredient('Huevos', 5, '', false, ''),
+    new Ingredient('Pan', 5, 'rebanadas', false, 'res/3d/kenny/bread.glb'),
+    new Ingredient('Huevos', 5, '', false, 'res/3d/kenny/egg.glb'),
     new Ingredient('Leche', 250, 'ml', true, ''),
     new Ingredient('Vainilla', 1, 'cdta', true, ''),
     new Ingredient('Mantequilla', 4, 'cdas', true, ''),
